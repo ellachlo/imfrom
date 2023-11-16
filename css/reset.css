@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+@font-face {
+    font-family: 'Roboto Serif';
+    src: url(../fonts/RobotoSerif-Bold.ttf);
+    font-weight: 800;
+    }
+
+@font-face {
+    font-family: 'Roboto Serif';
+    src: url(../fonts/RobotoSerif-SemiBold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto Serif';
+    src: url(../fonts/RobotoSerif-Medium.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Roboto Serif';
+    src: url(../fonts/RobotoSerif-Regular.ttf);
+    font-weight: 500;
+    }
+@font-face {
+    font-family: 'Roboto Serif';
+    src: url(../fonts/RobotoSerif-Thin.ttf);
+    src: url(../fonts/RobotoSerif-Light.ttf);
+    font-weight: 300;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 100%;
+    font-family: 'Pretendard';
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img,svg,video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
